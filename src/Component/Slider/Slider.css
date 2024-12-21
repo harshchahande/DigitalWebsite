@@ -1,0 +1,21 @@
+.slider1_img{
+    width: 100px;
+}
+
+.slick-prev::before {
+    position: absolute !important;
+    top: -20rem !important;
+    left: 70rem !important;
+  }
+  .slick-next::before {
+    position: absolute !important;
+    top: -20rem !important;
+    right: 0rem !important;
+  }
+  .slick-prev::before,
+  .slick-next::before {
+    color: #ffbe33 !important;
+    font-size: 3rem !important;
+    opacity: 1 !important;
+  }
+  
